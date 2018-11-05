@@ -1,0 +1,22 @@
+{
+  "name": "gulpfile.js",
+  "version": "1.0.0",
+  "description": "dist",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mapsxy/dist.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mapsxy/dist/issues"
+  },
+  "homepage": "https://github.com/mapsxy/dist#readme",
+  "dependencies": {
+    "gulp-webserver": "^0.9.1"
+  }
+}
