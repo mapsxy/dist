@@ -2,7 +2,7 @@
  * @Author: xuying 
  * @Date: 2018-11-05 08:55:44 
  * @Last Modified by: xuying
- * @Last Modified time: 2018-11-05 09:48:51
+ * @Last Modified time: 2018-11-05 09:56:49
  */
 
 //引入
@@ -61,3 +61,10 @@ gulp.task('devServer', function() {
 })
 
 gulp.task('dev', gulp.series('devSass', 'devServer', 'watch'));
+
+//压缩js
+gulp.task('buildJs', function() {
+    return gulp.src('./src/js/index.js')
+        .pipe(uglify())
+        .pipe(gulp.dest('./build/js'));
+})

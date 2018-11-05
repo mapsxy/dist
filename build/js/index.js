@@ -1,0 +1,1 @@
+var ipt=document.querySelector(".ipt"),iptval=ipt.value;ajax({url:"/api/ipt",data:{ipt:iptval},success:function(t){console.log(t)}});
